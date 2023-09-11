@@ -1,3 +1,4 @@
+import React from 'react';
 import { View, Text, Button, StyleSheet } from 'react-native';
 import { useAppDispatch, useAppSelector } from '../app/hooks';
 import { actions as counterAction } from '../features/counter/counterSlice';
@@ -12,8 +13,8 @@ export const HomeScreen = () => {
   return (
     <View style={styles.container}>
       <Text>Counter: {count}</Text>
-      <Button title="Increment" onPress={increment} />
-      <Button title="Decrement" onPress={decrement} />
+      <Button title='Increment' onPress={increment} />
+      <Button title='Decrement' onPress={decrement} />
     </View>
   );
 };
