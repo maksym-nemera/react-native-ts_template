@@ -6,7 +6,6 @@ You may try it on this **web** version: [CLICK ME](https://maksym-nemera.github.
 
 If you need to try it on your phone check the [How to install](#how-to-install)
 
-
 ## Navigation:
 
 - [How to use tamplate](#how-to-use-template)
@@ -64,14 +63,16 @@ nvm use 20
 ```shell
 npm i
 ```
+
 8. install Expo Go
-[App Store](https://apps.apple.com/ru/app/expo-go/id982107779), [Google Play](https://play.google.com/store/apps/details?id=host.exp.exponent&hl=uk&gl=US&pli=1) on your phone
+   [App Store](https://apps.apple.com/ru/app/expo-go/id982107779), [Google Play](https://play.google.com/store/apps/details?id=host.exp.exponent&hl=uk&gl=US&pli=1) on your phone
 
 9. Start the project with Expo Go:
 
 ```shell
 npm run start
 ```
+
 10. Scan the QR code using the camera from the command line
 
 11. Update README.md.
