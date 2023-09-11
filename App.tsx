@@ -1,5 +1,11 @@
-import { Index } from './src/Index';
+import { Provider } from 'react-redux';
+import { MainApp } from './src/MainApp';
+import store from './src/app/store';
 
 export default function App() {
-  return <Index />;
+  return (
+    <Provider store={store}>
+      <MainApp />
+    </Provider>
+  );
 }
