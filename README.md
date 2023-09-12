@@ -180,13 +180,14 @@ git push origin feature/your-feature
 |	|-components/
 |	|	|-Example-component/
 |	|	|	|-Example-component.tsx
+|	|	|	|-index.tsx
 |	|-enums/
 |	|	|-example-enums.ts
 |	|-features/
 |	|	|-example/
 |	|	|	|-exampleSlice.ts
 |	|-screen/
-|	|	|-exampleScreen.ts
+|	|	|-exampleScreen.tsx
 |	|-types/
 |	|	|-example-types.ts
 |	|-utils/
